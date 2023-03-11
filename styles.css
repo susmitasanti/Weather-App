@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .weather {
+    display: flex; 
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+  }
+  #location {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .desc {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+  }
+  .circle {
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+  }
+  .box {
+    height: 20em;
+    width: 20em;
+    max-width: 420px;
+    background-color: #02020ad0;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 5px #023047;
+    align-items: center;
+
+  }
+  body {
+    justify-content: center;
+    margin: 0px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+    background-color: black;
+    background-image: url('https://source.unsplash.com/random/900x700/?landscape');
+    background-size: cover;
+    align-items: center;
+    padding: 10px;
+}
